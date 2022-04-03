@@ -29,7 +29,7 @@ class Starter:
 
 
 def starter_text(surface, text, size, color):
-    pygame.display.set_caption("Checkers")
+    pygame.display.set_caption("Windows Python Checkers")
     font = pygame.font.SysFont('Times New Roman', size, bold=True)
     label = font.render(text, 1, color)
     surface.blit(label, (topleft_x + play_width / 2 - (label.get_width() / 2), topleft_y + play_height / 2 - (label.get_height() / 2)))

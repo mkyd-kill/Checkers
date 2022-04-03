@@ -15,7 +15,7 @@ class Checkers():
     def Game():
         pygame.init()
         WIN = pygame.display.set_mode((WIDTH, HEIGHT), pygame.RESIZABLE)
-        pygame.display.set_caption("Checkers")
+        pygame.display.set_caption("Python Checkers")
         FPS = 60
         run = True
         game = MainGame(WIN)

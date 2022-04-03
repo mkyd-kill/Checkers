@@ -5,6 +5,8 @@
 #   \____|_| |_|\___|\___|_|\_\___|_|  |___/
 #
 from starter import Starter
+import os
+import sys
 # This is the file that is being executed
 
 def main():
